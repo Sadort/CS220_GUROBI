@@ -6,6 +6,6 @@ To obatin diffenrent optimized netlist, you should modify values in the 'params.
 
 NOTICE: The constructed environment contains python 2.7.10 and gurobi 8.
 
-#LINK
+## LINK
 [GitHub]
 (https://github.com/Sadort/CS220_GUROBI)
