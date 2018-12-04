@@ -7,7 +7,7 @@ import json
 import sys
 #grbgetkey c26269ac-de92-11e8-804a-02e454ff9c50
 #grbgetkey 69b8a336-f619-11e8-a50c-02e454ff9c50
-with open ("columba.json", 'r') as f:
+with open ("input.json", 'r') as f:
     read_json = json.loads(f.read())
 
 M = 500000
@@ -354,7 +354,7 @@ features["features"] = [generate_features(trim_components, trim_connections, i) 
 #print component_feature
 read_json.update(features)
 
-with open('data.json', 'w') as fp:
+with open('columba.json', 'w') as fp:
     json.dump(read_json, fp, indent=4)
 
 
